@@ -1,0 +1,46 @@
+<html >
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulario de registro</title>
+</head>
+<body align="left">
+  <h1>Formulario de registro</h1>
+  <form action="" method="get">
+    <table>
+      <tr>
+        <td>Nombre:</td>
+        <td><input type="text" name="nombre" placeholder="Escriba su Nombre" maxlength="50" required/></td>
+      </tr>
+      <tr>
+        <td>Apellido:</td>
+        <td><input type="text" name="apellido" placeholder="Escriba su Apellido" maxlength="50"required/></td>
+      </tr>
+      <tr>
+        <td>Correo Electrónico:</td>
+        <td><input type="email" name="correo" placeholder="Ingrese su correo" maxlength="25"required/></td>
+      </tr>
+      <tr>
+        <td>Población:</td>
+        <td>
+          <select name="Genero" required>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru">Peru</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Sexo:</td>
+        <td><input type="radio" name="Sexo"/>Mujer<input type="radio" name="Sexo" required/>Hombre</td>
+      </tr>
+      <tr>
+      </table>
+        
+
+<p><input type="checkbox" name="verificacion1" checked="checked" required/>Deseo recibir informacion sobre novedades y ofertas</p>
+    
+        
+    <p><input type="checkbox" name="verificacion2"  required/>Declaro haber leido y aceptar las condiciones generales <br> del programa y la normativa sobre proteccion de dato</p>
+    
+    <p><input type="submit" value="Enviar"/></p>
+    
+  </form>

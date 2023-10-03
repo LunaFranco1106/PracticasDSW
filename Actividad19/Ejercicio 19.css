@@ -1,0 +1,34 @@
+.container {
+            width: 80%; /* Porcentaje del ancho del contenedor padre */
+            margin: 0 auto; /* Centrar horizontalmente */
+            padding: 20px;
+        }
+
+        p {
+            font-size: 1.2em; /* Em es una unidad relativa al tamaño de fuente del elemento padre */
+            line-height: 1.5; /* Unidad relativa al tamaño de fuente del elemento actual */
+            margin-bottom: 1em; /* Em es una unidad relativa al tamaño de fuente del elemento padre */
+        }
+
+        /* Pseudo-clases */
+        a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Cambia el estilo cuando se coloca el ratón sobre el enlace */
+        }
+
+        /* Propiedades básicas de CSS */
+        .highlight {
+            background-color: #FFFF00; /* Color de fondo */
+            border: 1px solid #FF0000; /* Borde con color rojo */
+            padding: 10px; /* Espaciado interno */
+            margin-top: 20px; /* Margen superior */
+            text-align: center; /* Alineación de texto */
+        }
+
+        .center {
+            text-align: center; /* Alineación de texto al centro */
+        }
